@@ -12,6 +12,7 @@ while(!s.empty())
 	
 
 	}
+}
 int main()
 {
 stack<int> s1;
