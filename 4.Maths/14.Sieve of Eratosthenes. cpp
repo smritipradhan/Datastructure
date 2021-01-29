@@ -1,0 +1,32 @@
+//Sieve of Eratosthenes
+//program to find all the prime number in range
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void primeNumber(int n)
+{
+    if(n<=1)
+    return;
+    
+    vector <bool> isPrime(n+1,true);
+    for(int i =2;i<=n;i++)
+    {
+        if(isPrime[i])
+        {
+        cout<<i<<"\n";
+        for(int j =i*i;j<=n;j=j+i)
+        {
+         
+         isPrime[j] = false;
+        }
+        }
+    }
+}
+
+int main()
+{
+    int n = 20;
+    primeNumber(n);
+    return 0;
+}
