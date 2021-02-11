@@ -11,7 +11,7 @@ return 0;
 return (jos(n-1,k)+k)%n;
 
 }
-int myjos(int n.int k)
+int myjos(int n,int k)
 {
     jos(n,k)+1;//when the index start from 1 call the myjos function first
 }
