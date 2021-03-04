@@ -14,6 +14,9 @@ void CountFreq(const string &str)
     /*
     operator << — add a string to the stringstream object.
 operator >> — read something from the stringstream object,*/
+
+    //transform(s.begin(),s.end(),s.begin(),::tolower); Remove comment if Case doesn't matter
+
     while (ss >> word)
     {
         umap[word]++;
