@@ -13,16 +13,16 @@ class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) 
     {           
-      vector<vector<int>> res;
-      vector<int> Itr = nums;
+      vector<vector<int>> res; //Initialising vector of vector .
+      vector<int> Itr = nums; 
         
       res.push_back(Itr);
-      next_permutation(Itr.begin(),Itr.end());
+      next_permutation(Itr.begin(),Itr.end()); 
       
-      while(Itr!=nums)
+      while(Itr!=nums) //looping until the permutaion completes and generates num again.
       {
          res.push_back(Itr);
-         next_permutation(Itr.begin(),Itr.end()); 
+         next_permutation(Itr.begin(),Itr.end());  //generating the next permutations 
           
           
       }
