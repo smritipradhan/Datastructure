@@ -20,7 +20,7 @@ new_node->next = (*head_ref);
 }	
 
 
-void insertAfter(Node* prev,int data)
+void insertAfter(Node* prev,int data) //Push after the prev node
 {
 if(prev==NULL)
 {
@@ -35,7 +35,7 @@ prev->next = new_node;
 
 }
 
-void append(Node* head_ref,int data)
+void append(Node* head_ref,int data)  //push at the end
 {
 if(head_ref==NULL)
 {
@@ -43,7 +43,7 @@ if(head_ref==NULL)
 	return;
 }
 Node* last = head_ref;
-while(last->next!=NULL)
+while(last->next!=NULL) //find the last node
 {
 	last = last->next;
 }
