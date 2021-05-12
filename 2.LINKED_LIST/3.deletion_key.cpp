@@ -57,9 +57,7 @@ void deleteNode(Node** head_ref, int key)
 	}
 }
 
-// This function prints contents of
-// linked list starting from the
-// given node
+
 void printList(Node* node)
 {
 	while (node != NULL)
@@ -69,14 +67,11 @@ void printList(Node* node)
 	}
 }
 
-// Driver code
 int main()
 {
-	
-	// Start with the empty list
+
 	Node* head = NULL;
 
-	// Add elements in linked list
 	push(&head, 7);
 	push(&head, 1);
 	push(&head, 3);
@@ -93,5 +88,4 @@ int main()
 	return 0;
 }
 
-// This code is contributed by ac121102
 

@@ -57,5 +57,7 @@ int main()
 	push(10,&head);
 
 	printList(head);
+reverse(head);
+printList(head);
 	return 0;
 }
