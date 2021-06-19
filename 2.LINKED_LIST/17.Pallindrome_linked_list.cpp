@@ -46,7 +46,7 @@ int main()
 { 
 	Node *head=new Node('g');
 	head->next=new Node('f');
-	head->next->next=new Node('g');
+	head->next->next=new Node('h');
 	if(isPalindrome(head))
 	    cout<<"Yes";
 	else
