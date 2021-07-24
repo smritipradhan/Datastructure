@@ -70,7 +70,7 @@ if(i!=smallest)
 //-----------------------------------------------
 int ExtractMin()
 {
-if(size==0)return INT_MAX;
+if(size<=0)return INT_MAX;
 
 if(size==1)
 {
