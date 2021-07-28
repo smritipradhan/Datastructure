@@ -14,13 +14,13 @@ class Solution
     {
     visited[i][j] = true;
     
-    connected_components(grid,i-1,j,visited);
-    connected_components(grid,i,j+1,visited);
-    connected_components(grid,i,j-1,visited);
-    connected_components(grid,i+1,j,visited);
-    
+    connected_components(grid,i-1,j,visited);  //top
+    connected_components(grid,i,j+1,visited);  //right
+    connected_components(grid,i,j-1,visited);  //left
+    connected_components(grid,i+1,j,visited);  //bottom
+    //diaGONALS
     connected_components(grid,i+1,j+1,visited);
-    connected_components(grid,i-1,j-1,visited);
+    connected_components(grid,i-1,j-1,visited); 
     connected_components(grid,i+1,j-1,visited);
     connected_components(grid,i-1,j+1,visited);
      
