@@ -25,7 +25,7 @@ class Solution
         while(!pq.empty()){
             
             p = pq.top();
-            cout<<p<<endl;
+            
             pq.pop();
             
             if(visited[p.second] == true)
