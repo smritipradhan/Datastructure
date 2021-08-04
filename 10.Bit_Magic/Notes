@@ -1,0 +1,22 @@
+So today I learnt about bit magic.
+Big Magic consists of six operators.
+The operators are 
+bitwise and   --&
+bitwise or      --||
+bitwise xor    -- ^
+Right shift operator  >> 
+left shift operator   <<
+and bitwise not   ~
+
+1<<x --> 2 power x
+1<<(x-1) --> 2 power x-1
+log2(any number) - returns the number of times that number can be expressed as power of 2.
+
+Right Most Bit Masking  = (x&x``) 
+x`` = 2s complement = -x
+
+1.Check if the kth bit is set or not
+2.First Set BIt
+3.Difference in a bit of two numbers
+4.Counting of set bits in 1-N natural numbers
+  
