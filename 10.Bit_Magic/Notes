@@ -20,3 +20,13 @@ x`` = 2s complement = -x
 3.Difference in a bit of two numbers
 4.Counting of set bits in 1-N natural numbers
   
+
+XOR Properties
+
+x^x = 0
+x^0 = 0
+x^y = y^x
+
+(x^y)^z = x^(y^z)
+
+
